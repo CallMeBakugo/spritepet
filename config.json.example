@@ -1,0 +1,11 @@
+{
+    "scale": 0.75,
+    "margin": 110,
+    "bobAmplitude": 12,
+    "bobDurationMs": 1800,
+    "swayAngleDeg": 1.2,
+    "swayDurationMs": 2600,
+    "hopHeight": 70,
+    "idleHopMinMs": 20000,
+    "idleHopMaxMs": 34000
+}
