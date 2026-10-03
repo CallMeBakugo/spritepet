@@ -32,8 +32,8 @@ PanelWindow {
 
     property var cfgX: root.cfg ? root.cfg.x : undefined
     property var cfgY: root.cfg ? root.cfg.y : undefined
-    property real cfgScale: c("scale", 0.75)
-    property real cfgMargin: c("margin", 110)
+    property real cfgScale: c("scale", 0.9)
+    property real cfgMargin: c("margin", 130)
     property real cfgBobAmp: c("bobAmplitude", 12)
     property int cfgBobDur: c("bobDurationMs", 1800)
     property real cfgSwayAngle: c("swayAngleDeg", 1.2)

@@ -47,8 +47,8 @@ Spritepet reads an optional JSON file from `$XDG_CONFIG_HOME/spritepet/config.js
 
 | Key | Default | Meaning |
 |---|---|---|
-| scale | 0.75 | Her initial size relative to the image's native resolution |
-| margin | 110 | Distance in pixels from the screen edges where she first appears |
+| scale | 0.9 | Her initial size relative to the image's native resolution |
+| margin | 130 | Distance in pixels from the screen edges where she first appears |
 | x | unset | Absolute horizontal position in pixels; when unset she appears near the bottom-right corner |
 | y | unset | Absolute vertical position in pixels |
 | bobAmplitude | 12 | How far in pixels she rises while breathing |
@@ -62,6 +62,15 @@ Spritepet reads an optional JSON file from `$XDG_CONFIG_HOME/spritepet/config.js
 ## Moods
 
 Place any images you like into `$XDG_CONFIG_HOME/spritepet/images/`. Files are listed alphabetically at startup, and right-clicking the pet cycles through them in that order. A transparent PNG cutout looks best; for artwork on a plain background, any background-removal tool will free her first. If the directory is empty, the pet shows a hint explaining where to put images instead.
+
+This repository ships one ready-made mood in `example-moods/`. Copy it into your images directory and she will appear on your next launch:
+
+```
+mkdir -p ~/.config/spritepet/images
+cp example-moods/canari-fingerheart.png ~/.config/spritepet/images/
+```
+
+With a single image in the directory, the pet has nothing to cycle through and simply keeps her on screen.
 
 ## Notes for contributors
 
